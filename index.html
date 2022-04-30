@@ -491,11 +491,18 @@
                     </svg>
                 </div>
                 </div>
-                <div class="modal-field">
+                <div class="modal-field-text">
                     <label class="modal-label" for="user-text">Комментарий</label>
                         <textarea class="modal-user-text" name="user-text" id="user-text" >Введите текст</textarea>
                     </div>
-                <button type="submit" class="modal-button button">Отправить</button>
+                    <div class="modal-field-check">
+                        <input type="checkbox" class="modal-check is-hidden" id="modal-check" name="privacy-check">
+                        <label for="modal-check" class="modal-check-text">Соглашаюсь с рассылкой и принимаю</label>
+                        <a href="" class="modal-more">Условия договора</a>
+                    </div>
+                    <div class="modal-btn">
+                        <button type="submit" class="modal-button button">Отправить</button>
+                    </div>
             </form>
         </div>
     </div>
